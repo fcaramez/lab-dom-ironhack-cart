@@ -42,6 +42,7 @@ function removeProduct(event) {
   let parent = rowToRemove.parentNode;
 
   parent.removeChild(rowToRemove);
+  calculateAll();
 }
 
 // ITERATION 5
