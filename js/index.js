@@ -39,10 +39,8 @@ function calculateAll() {
   let total = document.querySelector('#total-value span');
   let totals = 0;
 
-  for (let j = 0; j < subTotal; j++) {
-    totals = subTotal;
-    total.innerHTML = totals;
-}
+  totals = subTotal;
+  total.innerHTML = totals;
 }
 
 // ITERATION 4
